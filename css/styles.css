@@ -2305,3 +2305,7 @@ a:hover.back-to-top {
 	}
 	/* end of about */
 }
+/* image tagline */
+img.img-fluid.tagline {
+    max-width: 75%;
+}
