@@ -1278,3 +1278,131 @@ body.mobile-nav-active #mobile-nav-toggle {
     text-align: center;
   }
 }
+
+/* release section
+--------------------------------*/
+
+#release {
+  padding: 60px 0 0 0;
+  overflow: hidden;
+}
+
+#release .release-img {
+  height: 510px;
+  overflow: hidden;
+}
+
+#release .release-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+#release .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#release .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#release .content p {
+  line-height: 26px;
+}
+
+#release .content p:last-child {
+  margin-bottom: 0;
+}
+
+#release .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1dc8cd;
+}
+
+#release .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#release .content ul li {
+  padding-bottom: 10px;
+}
+
+  #release .release-img {
+    height: auto;
+  }
+
+  #release .release-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
+
+  /* device section
+--------------------------------*/
+
+#device {
+  padding: 60px 0 0 0;
+  overflow: hidden;
+}
+
+#device .device-img {
+  height: 510px;
+  overflow: hidden;
+}
+
+#device .device-img img {
+  margin-left: -15px;
+  max-width: 100%;
+}
+
+#device .content .h2 {
+  color: #333;
+  font-weight: 300;
+  font-size: 24px;
+}
+
+#device .content h3 {
+  color: #777;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 26px;
+  font-style: italic;
+}
+
+#device .content p {
+  line-height: 26px;
+}
+
+#device .content p:last-child {
+  margin-bottom: 0;
+}
+
+#device .content i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #1dc8cd;
+}
+
+#device .content ul {
+  list-style: none;
+  padding: 0;
+}
+
+#device .content ul li {
+  padding-bottom: 10px;
+}
+
+  #device .device-img {
+    height: auto;
+  }
+
+  #device .device-img img {
+    margin-left: 0;
+    padding-bottom: 30px;
+  }
