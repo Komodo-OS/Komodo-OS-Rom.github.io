@@ -4,17 +4,17 @@ title: Blog
 excerpt_separator: <!--morepost-->
 ---
 {% for post in site.posts %}
-  <div class="card z-depth-3">
-    <div class="card-image">
-      <img src="{{ post.image }}" style="max-height:300px">
-      <span class="card-title">{{ post.title }}</span>
+<div class="cards-row">
+<div class="card">
+    <img src="{{ post.image }}" class="card-image" />
+    <div class="card-title">
+        {{ post.title }}
     </div>
-    <div class="card-content">
-      {{ post.excerpt }}
+    <div class="card-desc">
+        {{ post.excerpt }}
     </div>
-    <div class="card-action">
-      <a href="{{ post.url }}">Read more</a>
+    <div class="card-actions">
+        <button onclick="window.location.href = '{{ post.url }}';" type='button' class='card-action-readMore'>Read More</button>
     </div>
-  </div>
-  <br>
+</div>
 {% endfor %}

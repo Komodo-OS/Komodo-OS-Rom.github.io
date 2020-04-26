@@ -3,13 +3,10 @@
   {% include head.html %}
   <body>
     {% include header.html %}
-      <div class="container">
-        <div class="row">
-            <div class="card shishu-light-bg z-depth-3" id="article">
-                <div class="card-image">
-                <img src="{{ page.image }}" style="max-height:300px">
-                <span class="card-title">{{ page.title }}</span>
-                </div>
+        <div class="cards-row">
+            <div class="card" id="article">
+                <img src="{{ page.image }}" class="card-image" />
+                <div class="card-title">{{ page.title }}</div>
                 <div class="card-content blog-post">
                 {% if page.author %}
                 <p class="text-muted">Posted by {{ page.author }} · {{ page.date | date_to_long_string }}</p><br>
@@ -34,7 +31,6 @@
                 </div>
             </div>
         </div>
-      </div>
     {% include contact.html %}
     {% include footer.html %}
   </body>
