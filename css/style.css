@@ -510,8 +510,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img img {
-  margin-left: -15px;
-  max-width: 100%;
+  max-width: 80%;
+  margin: 0 auto;
+  display: block;
 }
 
 #about .content .h2 {
