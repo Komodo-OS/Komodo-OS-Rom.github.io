@@ -792,13 +792,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 #donate {
   padding: 60px 0 60px 0;
   overflow: hidden;
+  background: #282828;
 }
 
 #donate .box {
   padding: 40px;
   margin-bottom: 30px;
-  box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-  background: #282828;
+  background: #363636;
   text-align: center;
 }
 
@@ -868,7 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq {
   padding: 60px 0;
   overflow: hidden;
-  background: #282828;
+  background: #363636;
 }
 
 #faq #faq-list {
@@ -1021,7 +1021,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
-  background: #363636
+  background: #282828
 }
 
 #contact .contact-about h3 {
@@ -1148,7 +1148,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 0;
   color: #ccc;
   font-size: 14px;
-  background: #282828
+  background: #363636
 }
 
 #footer .credits {
