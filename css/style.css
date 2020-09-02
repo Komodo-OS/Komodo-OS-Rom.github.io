@@ -11,7 +11,7 @@
 
 body {
   background: #fff;
-  color: #666666;
+  color: #ccc;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
 }
@@ -31,7 +31,7 @@ a:focus {
 
 p {
   padding: 0;
-  margin: 0 0 30px 0;
+  margin: 0;
 }
 
 h1,
@@ -468,7 +468,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .section-header .section-title {
   font-size: 32px;
-  color: #111;
+  color: #ccc;
   text-align: center;
   font-weight: 400;
 }
@@ -476,7 +476,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 .section-header .section-description {
   text-align: center;
   padding-bottom: 40px;
-  color: #777;
+  color: #ccc;
   font-style: italic;
 }
 
@@ -494,7 +494,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 .section-bg {
-  background: #eff5f5;
+  background: #363636;
 }
 
 /* About Us Section
@@ -506,7 +506,6 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img {
-  height: 510px;
   overflow: hidden;
 }
 
@@ -522,7 +521,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .content h3 {
-  color: #777;
+  color: #1dc8cd;
   font-weight: 300;
   font-size: 18px;
   line-height: 26px;
@@ -556,8 +555,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #features {
-  background: #fff;
-  padding: 60px 0 00px 0;
+  background: #282828;
+  padding: 60px 0 30px 0;
   overflow: hidden;
 }
 
@@ -567,7 +566,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .features-img img {
-  max-width: 80%;
+  max-width: 95%;
+  margin: 0 auto;
+  display: block;
 }
 
 #features .box {
@@ -600,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #features .title a {
-  color: #111;
+  color: #ccc;
 }
 
 #features .description {
@@ -621,7 +622,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #advanced-features .features-row {
-  padding: 60px 0 30px 0;
+  padding: 30px 0 30px 0;
 }
 
 #advanced-features h2 {
@@ -797,7 +798,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 40px;
   margin-bottom: 30px;
   box-shadow: 0px 0px 30px rgba(73, 78, 92, 0.15);
-  background: #fff;
+  background: #282828;
   text-align: center;
 }
 
@@ -867,6 +868,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq {
   padding: 60px 0;
   overflow: hidden;
+  background: #282828;
 }
 
 #faq #faq-list {
@@ -905,7 +907,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #faq #faq-list a.collapsed {
-  color: #000;
+  color: #ccc;
 }
 
 #faq #faq-list a.collapsed i::before {
@@ -1019,6 +1021,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
+  background: #363636
 }
 
 #contact .contact-about h3 {
@@ -1066,7 +1069,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact .info {
-  color: #333333;
+  color: #1dc8cd;
 }
 
 #contact .info i {
@@ -1143,8 +1146,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: #fff;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 30px 0;
-  color: #333;
+  color: #ccc;
   font-size: 14px;
+  background: #282828
 }
 
 #footer .credits {
@@ -1264,7 +1268,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #more-features .box {
-    margin-bottom: 20px;
+    margin-bottom: 30px;
   }
 
   #more-features .icon {
@@ -1340,8 +1344,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #release .release-img img {
-    margin-left: 0;
     padding-bottom: 30px;
+    margin: 0 auto;
+    display: block;
   }
 
   /* device section
