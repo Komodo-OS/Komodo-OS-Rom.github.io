@@ -510,7 +510,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about .about-img img {
-  max-width: 80%;
+  max-width: 60%;
   margin: 0 auto;
   display: block;
 }
@@ -1232,7 +1232,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   }
 
   #about .about-img img {
-    margin-left: 0;
+    margin: 0 auto;
+    display: block;
     padding-bottom: 30px;
   }
 
