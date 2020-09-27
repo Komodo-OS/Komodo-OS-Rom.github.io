@@ -10,7 +10,7 @@
 --------------------------------------------------------------*/
 
 body {
-  background: #fff;
+  background: #363636;
   color: #ccc;
   font-family: "Open Sans", sans-serif;
   overflow-x: hidden;
@@ -801,6 +801,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 30px;
   background: #363636;
   text-align: center;
+  border-radius: 8px;
 }
 
 #donate h3 {
@@ -869,7 +870,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #faq {
   padding: 60px 0;
   overflow: hidden;
-  background: #363636;
+  background: #282828;
 }
 
 #faq #faq-list {
@@ -919,23 +920,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------*/
 
 #team {
-  padding: 60px 0;
+  padding: 30px 0;
   overflow: hidden;
 }
 
 #team .member {
   text-align: center;
-  margin-bottom: 20px;
+  background: #282828;
+  border-radius: 8px;
+  margin: 15px 0;
 }
 
 #team .member .pic {
-  margin-bottom: 15px;
+  margin: 15px 0;
   overflow: hidden;
   height: 260px;
 }
 
 #team .member .pic img {
   max-width: 100%;
+  border-radius: 8px;
 }
 
 #team .member h4 {
@@ -965,6 +969,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #team .member .social i {
   font-size: 18px;
   margin: 0 2px;
+  margin-bottom: 20px;
 }
 
 /* Gallery Section
@@ -1022,7 +1027,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
   padding: 60px 0;
   overflow: hidden;
-  background: #282828
+  background: #363636
 }
 
 #contact .contact-about h3 {
@@ -1149,7 +1154,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding: 30px 0;
   color: #ccc;
   font-size: 14px;
-  background: #363636
+  background: #282828
 }
 
 #footer .credits {
